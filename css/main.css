@@ -1,23 +1,133 @@
 body{
 	background-image: url(https://www.pakutaso.com/shared/img/thumb/KUMA1892040_TP_V.jpg);
+	background-attachment: fixed;
+	background-repeat:no-repeat;
+	text-align: center;
+	word-break: break-all;
+
+}
+h1{font-size: 60px;}
+h2{font-size: 40px;}
+a:hover {
+	/*設定滑鼠移經的連結*/
+	text-decoration:underline;
+	background-color:#00FFFF;
+	color:gray;
+}
+.quot{
+	font-family: DFKai-sb;
+	font-size: 24px;
+	color: #FF2EFF;
+	line-height: 1.5;
+}
+.div-center{
+	margin: 0 auto;
+	width: 1000px;
 }
 
 /*--header--*/
 #Header{
-	color: yellow;
-	text-align: center;
+	color: 	#FFFF77;
+	font-family: Microsoft JhengHei;/*微軟正黑體*/
+	line-height: 0.8;
+
+}
+#Header h2{
+	display: block;
+	background-color: #0000AA;
+	height: 50px;
+	margin: 0 auto;
+	color: 	#66DD00;/*green*/
 }
 
 /*--menu--*/
-#Menu{}
-
-/*--content--*/
-p {
-	color: #99FF33;
+#Menu{
+	width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#Menu ul{
+	padding:0;
+	margin: 0;
+	float: left;
+}
+#Menu li{
+	float: left;
+	padding:0;
+	margin: 0;
+}
+#Menu li a{
+	display: block;
+	width: 250px;
+	height: 40px;
+	background-color: #66009D;
+	background-image: url(../img/button.png);
+	font-size: 23px;
+	font-family: Papyrus;
+	font-weight:bolder;
+	color: #FFFFFF;
+	letter-spacing: 3px;/*字字間隔*/
 	text-align: center;
-	font-family: verdana;
-	font-size: 20px;
+	text-decoration: none;/*去取消襯線*/
+}
+#Menu li a:hover {
+	/*設定滑鼠移經的連結*/
+	text-decoration:underline;
+	background-color:#00FFFF;
+	color:gray;
 }
 
+/*--content--*/
+#Content{
+	width: 1200px;
+	margin: 0 auto;
+	color: yellow;
+	font-size: 25px;
+	line-height: 0.5;
+}
+
+.div-bike{
+	margin: 0 auto;
+	width: 1000px;
+	border:2px green dashed;
+}
+.tdenergyround{
+	background-image: url(../img/energyround.png);
+	background-repeat:no-repeat;
+	background-size:320px 320px;
+	text-align: center;
+	background-position:center;
+}
+.tdbutton{
+	background-image: url(../img/button.png);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	text-align: center;
+}
+.bike-tdtext{
+	color:#000088;
+	font-family: Microsoft JhengHei;
+	font-weight:bolder;
+	font-size:40px;
+}
+.works-tdtext{
+	color:#000088;
+	font-family: Microsoft JhengHei;
+	font-weight:bolder;
+	font-size:30px;
+}
+.works-tdtext{
+	color:#000088;
+	font-family: Microsoft JhengHei;
+	font-weight:bolder;
+	font-size:30px;
+}
+
+
 /*--footer--*/
-#Footer{}
+#Footer{
+	color: #0000CC;
+	font-size: 25px;
+	line-height: 0.3;
+	font-family:Microsoft YaHei;
+}
