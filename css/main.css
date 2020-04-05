@@ -126,8 +126,11 @@ a:hover {
 
 /*--footer--*/
 #Footer{
-	color: #0000CC;
+	color: #01814A;
 	font-size: 25px;
 	line-height: 0.3;
 	font-family:Microsoft YaHei;
+}
+#Footer a{
+	color: #0000CC;
 }
