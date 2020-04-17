@@ -11,12 +11,13 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"/><!--link CSS animate-->
     <link rel="Shortcut Icon" type="image/x-icon" href="img/icon.ico" />
 <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-</head>
 <script>
 	window.onload = function () {
-	$(".load").fadeToggle(1000);
+	$(".load").fadeOut(500);
+	$("p").addClass("animated rotateIn");
 	};
 </script>
+</head>
 
 <body style="background-image: url(img/bikebackground.jpg); background-size:100% 100%;">
 <header id="Header">
@@ -39,7 +40,7 @@
 </div>
 
 <section id="Content">
-<p class="animated swing" style="color:#00FFFF; font-size:30px; animation-delay: 4s;">The following is some of my cycling record:</p>
+<p style="color:#00FFFF; font-size:30px;">The following is some of my cycling record:</p>
 <div class="div-center"><table class="bike-tdtext">
 <tr><td width="50%"><img src="img/bike1.jpg" width="100%"></td>
 <td class="tdenergyround" style="background-size:275px 275px;"><p>北投</p></td><tr>
