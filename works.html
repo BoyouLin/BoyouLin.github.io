@@ -16,6 +16,21 @@
 	$(".load").fadeOut(500);
 	$("p").addClass("animated rotateIn");
 	};
+	$(document).ready(function() {
+		$("img").mouseover(function(){
+			$("img").addClass("animated tada infinite");
+		});
+		$("img").mouseout(function(){
+			$("img").removeClass();
+		});
+		$(".textlink").mouseover(function(){
+			$(".textlink").parent().removeClass();
+			$(".textlink").parent().addClass("animated shake infinite");
+		});
+		$(".textlink").mouseout(function(){
+			$(".textlink").parent().removeClass();
+		});
+	});
 </script>
 </head>
 
@@ -43,7 +58,7 @@
 <p style="color:#FF00FF; font-size:30px;">The following is my team works with my friends and classmates:</p>
 <div class="div-center"><table class="works-tdtext">
 
-<tr></td><td class="tdbutton"><p>計概專題</p><p>鉲鏑鈉排球</p><p><a href="https://jafarwu.github.io/"  target="_blank" title="Simple introduction">概述介紹頁面</a></p></td>
+<tr></td><td class="tdbutton"><p>計概專題</p><p>鉲鏑鈉排球</p><p><a href="https://jafarwu.github.io/"  target="_blank" title="Simple introduction" class="textlink">概述介紹頁面</a></p></td>
 <td width="50%"><a href="https://jafarwu.github.io/"  target="_blank"  title="Simple introduction"><img src="img/teamwork1.png" width="100%"></a><tr>
 
 <tr><td width="50%"><iframe width="560" height="315" src="https://www.youtube.com/embed/CWRjf0HA2bg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
@@ -53,7 +68,7 @@
 <td width="50%"><iframe width="560" height="315" src="https://www.youtube.com/embed/Yk6h8fFqK9E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td><tr>
 
 <tr><td width="50%"><a href="http://arcg.is/2tjWy6z" target="_blank"><img src="img/teamwork4.png" width="100%" title="Yilan geography special topic web page"></td>
-<td class="tdbutton"><p>宜蘭地理專題報告</p><p><a href="https://youtu.be/0dvdtDp0eoc" target="_blank" title="Introduction video">說明影片</a></p></td><tr>
+<td class="tdbutton"><p>宜蘭地理專題報告</p><p><a href="https://youtu.be/0dvdtDp0eoc" target="_blank" title="Introduction video" class="textlink">說明影片</a></p></td><tr>
 
 </table></div>
 
