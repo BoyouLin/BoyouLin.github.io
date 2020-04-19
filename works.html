@@ -18,17 +18,17 @@
 	};
 	$(document).ready(function() {
 		$("img").mouseover(function(){
-			$("img").addClass("animated tada infinite");
+			$(this).addClass("animated tada infinite");
 		});
 		$("img").mouseout(function(){
-			$("img").removeClass();
+			$(this).removeClass();
 		});
 		$(".textlink").mouseover(function(){
-			$(".textlink").parent().removeClass();
-			$(".textlink").parent().addClass("animated shake infinite");
+			$(this).parent().removeClass();
+			$(this).parent().addClass("animated shake infinite");
 		});
 		$(".textlink").mouseout(function(){
-			$(".textlink").parent().removeClass();
+			$(this).parent().removeClass();
 		});
 	});
 </script>
